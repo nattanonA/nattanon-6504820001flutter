@@ -53,8 +53,8 @@ class _TeamPageState extends State<TeamPage> {
         itemBuilder: (BuildContext context,int index){
           return ListTile(
             leading: Container(
-              width: 80,
-              height: 80,
+              width: 50,
+              height: 50,
               decoration: BoxDecoration(
                 shape: BoxShape.rectangle,
                 image: DecorationImage(
